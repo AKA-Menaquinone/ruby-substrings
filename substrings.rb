@@ -8,4 +8,4 @@ def substrings(words, dictionary)
   result.select {|k, v| v != 0}
 end
 
-p substrings("how now below low i ii i", dictionary)
+substrings("how's is going partner", dictionary)
